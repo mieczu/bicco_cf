@@ -1,0 +1,113 @@
+/*
+Theme Name: Impreza Child
+Template: Impreza
+Version: 1.0
+Author:	UpSolution
+Theme URI: http://impreza.us-themes.com/
+Author URI: http://us-themes.com/
+*/
+
+/*Add your own styles here:*/
+
+/*Add your own styles here:*/
+@font-face {
+    font-family: MyriadPro;
+    src: url(Myriad-Pro.ttf) format("truetype");
+}
+
+body {
+    /*font-family: 'MyriadPro' !important;*/
+	font-family: 'Calibri' !important;
+	line-height: normal;
+}
+
+h1, h2, h3, h4, h5, h6,
+.w-counter-number,
+.w-pricing-item-title,
+.w-pricing-item-price,
+.w-tabs-item-title {
+    /*font-family: 'MyriadPro' !important;*/
+	font-family: 'Calibri' !important;
+}
+
+#start h2{
+	text-transform: uppercase;
+}
+
+.g-filters-item{
+	background: #2b1d16;
+	color: #fefefe;
+	border-radius: none;
+	border: 1px solid #2b1d16;
+}
+
+.g-filters-item:hover,
+.g-filters-item.active{
+	background: transparent !important;
+	color: #2b1d16 !important;
+	border-radius: none;
+}
+
+#produkty{
+	color: #2b1d16;
+}
+
+#produkty .w-portfolio-item-image{
+	transform-origin: center;
+	transform: scale(0.6);
+}
+
+#produkty .w-portfolio-item-anchor:hover .w-portfolio-item-image {
+    border-radius: 0;
+    transform: scale(1.01);
+}
+
+#produkty .w-portfolio-item-meta{
+	top: auto;
+	bottom: 0;
+	right: auto;
+	/*left: 40%;*/
+	left: 25%;
+}
+
+#produkty .w-blog-post-title{
+	font-weight: bold;
+	color: #2b1d16;
+}
+
+.l-content ul {
+  list-style-type: none;
+}
+
+.l-content ul > li{
+  text-indent: -5px;
+}
+
+.l-content ul > li:before {
+  content: "-";
+  text-indent: -5px;
+  padding-right: 8px;
+}
+
+.w-portfolio-item-title{
+    font-size: 16px !important;
+    font-weight: bold !important;
+    color: #2b1d16 !important;
+}
+
+.w-nav.type_desktop .w-nav-list.level_2{
+    min-width: auto;
+}
+
+input,
+textarea,
+select,
+.w-form-row-field::before,
+.w-iconbox.color_contrast .w-iconbox-icon,
+.w-iconbox.color_light.style_circle .w-iconbox-icon{
+    color: #000000 !important;
+}
+
+.display_none{
+    display: none;
+}

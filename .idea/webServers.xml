@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="89de5682-1306-4b8c-8b46-1d6d291c01f0" name="CF ABAD" url="http://cf.abad.pl">
+        <fileTransfer host="cf.abad.pl" port="21" password="dfc5dfc8dfc4dfd0dff0dffedff8df89dffedf98" username="orsogroup_cf">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
