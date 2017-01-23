@@ -4,7 +4,7 @@ Copyright 2011 av bidragsgivarna
 
 Detta program är fri programvara; du kan vidaredistribuera det och/eller ändra
 det under villkoren i GNU General Public License som publicerats av
-Free Software Foundation, antingen version 2 av licensen, eller
+Free Software Found   tion, antingen version 2 av licensen, eller
 (om så önskas) någon senare version.
 
 Detta program distribueras i hopp om att det ska vara användbart,
