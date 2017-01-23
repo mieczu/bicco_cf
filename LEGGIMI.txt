@@ -5,4 +5,4 @@ Nessuna responsabilità viene presa da wpitaly.it per eventuali problemi
 o malfunzionamenti derivanti dall'uso di questa distribuzione.
 
 Per problemi, supporto, informazioni si faccia riferimento al blog, al wiki ed
-al forum di supporto di WordPress Italy su www.wpitaly.it
+al forum di supporto di WordPre    ss Italy su www.wpitaly.it
