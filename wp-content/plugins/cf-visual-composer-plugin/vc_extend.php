@@ -51,13 +51,11 @@ class VCExtendAddonClass {
 					$us_portfolio_categories[ $portfolio_category_raw->name ] = $portfolio_category_raw->slug;
 				}
 			}
-//			echo '<pre> ';
-//			var_dump($us_portfolio_categories_raw);
-//			echo '</pre> ';
-		}else{
-//			echo 'brak kategorii';
 		}
-//		die('');
+//		echo '<pre>';
+//			var_dump($us_portfolio_categories);
+//		echo '</pre>';
+//		die('aaaaaaaa');
 
 		vc_map( array(
 			'base'     => 'cf_portfolio',
@@ -269,7 +267,7 @@ class VCExtendAddonClass {
 			'heading'    => __( 'Display Items of selected categories', 'us' ),
 			'type'       => 'checkbox',
 			'value'      => $us_portfolio_categories,
-			'std'        => '',
+			'std'        => 'checked',
 			'weight'     => 30,
 		) );
 
@@ -327,7 +325,7 @@ class VCExtendAddonClass {
 //		$text_color = isset( $text_color ) ? $text_color : null;
 //		$bg_color   = isset( $bg_color ) ? $bg_color : null;
 
-		$classes .= ' cols_' . 5;
+		$classes .= ' cols_' . 4;
 
 		$align = isset( $align ) ? $align : 'left';
 		$classes .= ' align_' . $align;

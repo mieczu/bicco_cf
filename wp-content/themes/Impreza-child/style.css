@@ -112,6 +112,24 @@ select,
     display: none;
 }
 
+#produkty-content tr{
+    font-size: 12px;
+}
+
 #produkty-content tr:nth-child(2n){
-    background-color: #d0a883;
+    background-color: #2b1d16;
+	color: #ffffff;
+}
+
+.acceptance-873{
+	display: inline !important;
+	padding: 10px;
+}
+
+.w-portfolio-item-anchor:hover .w-portfolio-item-image{
+    opacity: 1 !important;
+}
+
+.w-contacts-item{
+    display: block !important;
 }

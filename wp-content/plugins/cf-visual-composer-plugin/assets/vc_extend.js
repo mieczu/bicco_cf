@@ -36,6 +36,7 @@ jQuery(document).ready(function () {
                 '<h3 class="w-blog-post-title">' + post_title + '</h3>' +
                 '<div style="float: left; max-width: 350px;">' +
                 '<img width="350" height="350" style="width: auto; max-height: 450px;" src="' + msg.image + '" alt=""/>' +
+                '<a class="button" href="#produkty">Wróć do listy produktów</a>'+
                 '</div>' +
                 '<div class="w-blog-post-body">' +
                 '<div class="w-blog-post-content">' + msg.content + '</div>' +
@@ -112,6 +113,7 @@ jQuery(document).ready(function () {
                 break;
             case 'menu-item-1179':
                 jQuery( "[data-category='model-rv']").click();
+                break;
             case 'menu-item-1187':
                 jQuery( "[data-category='urzadzenia-typu-rv']").click();
                 break;
